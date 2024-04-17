@@ -1,0 +1,43 @@
+.button1 {
+    background-color: blue;
+    border: none;
+    padding: 10px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    border-radius: 150px;
+    color: white;
+    position: relative;
+    /* Add position relative for keyframe animation */
+    animation: button1 5s infinite;
+}
+
+.button2 {
+    background-color: purple;
+    /* Add a background color for the red buttons */
+    border: none;
+    padding: 10px 100px;
+    /* Adjusted padding for a more reasonable size */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    /* Adjusted margin for better spacing */
+    cursor: pointer;
+    border-radius: 15px;
+    /* Reduced border-radius for a more subtle rounding */
+    color: white;
+    bottom: 10px;
+    position: absolute;
+}
+
+@keyframes button1 {
+    from {
+        left: 0px;
+    }
+    to {
+        right: 0px;
+    }
+}
